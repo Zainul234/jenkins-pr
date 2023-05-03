@@ -13,10 +13,6 @@ pipeline {
                 sh 'date'
             }
         }
-         stage('deploy') {
-            steps {
-                echo 'Hello deploy'
-            }
-        }
+       
     }
 }
